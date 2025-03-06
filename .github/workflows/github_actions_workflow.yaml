@@ -17,5 +17,5 @@ jobs:
         with:
           args: >
               -Dsonar.organization=thegenetic
-              -Dsonar.projectKey=thegenetic
+              -Dsonar.projectKey=SonarCloudCodeAnalyisis
               -Dsonar.python.coverage.reportPaths=coverage.xml
