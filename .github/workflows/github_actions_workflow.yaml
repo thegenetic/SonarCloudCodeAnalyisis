@@ -20,6 +20,6 @@ jobs:
             SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         with:
           args: >
-              -Dsonar.organization=thegenetic
-              -Dsonar.projectKey=SonarCloudCodeAnalyisis
+              -sonar.organization=thegenetic
+              -sonar.projectKey=SonarCloudCodeAnalyisis
               -Dsonar.python.coverage.reportPaths=coverage.xml
